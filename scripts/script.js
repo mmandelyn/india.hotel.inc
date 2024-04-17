@@ -14,7 +14,7 @@ $( document ).ready(function(){
   $('#btnLoadData').click(function() {
     console.log("clicked");
 
-    let jsonURL = "https://raw.githubusercontent.com/mmandelyn/india.hotel.inc/main/demo.json";
+    let jsonURL = "https://mmandelyn.github.io/india.hotel.inc/demo.json";
 
     $.ajax({
         url: jsonURL,
