@@ -71,7 +71,7 @@ $( document ).ready(function(){
     }); // The end of the dependent selection.
 
     //Button submission and user greeting
-    $("#submitButton").click(function(){
+    $("#submitButton").click(function(e){ e.preventDefault()
       let email = $("#email").val();
       let pwd = $("#pwd").val();
       let firstName = $("#firstName").val();
